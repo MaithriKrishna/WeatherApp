@@ -1,0 +1,15 @@
+{
+  "name": "weatherapp",
+  "version": "1.0.0",
+  "description": "Weather App provides weather information for the provided location using CLI",
+  "main": "App.js",
+  "scripts": {
+    "run": "node App.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "chalk": "^4.0.0"
+  }
+}
