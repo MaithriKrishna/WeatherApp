@@ -17,6 +17,6 @@ const weatherForecast = (lat, long, callBack) => axios({
         }
         callBack(null, response.data)
     })
-    .catch((error) => callBack('Unable to connect to weather service!', null));
+    .catch((error) => callBack('Unable to connect to weather service!!!', null));
 
 module.exports = weatherForecast;
